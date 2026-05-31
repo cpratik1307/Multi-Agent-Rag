@@ -1,0 +1,48 @@
+# Environment — never commit real credentials
+.env
+
+# Personal notes — keep private
+INTERVIEW_PREP.md
+
+# Vector index — generated at runtime
+faiss_index/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Test/lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Uploaded PDFs (unless sample reports)
+data/uploads/
+*.pdf
+
+# Secrets / private docs
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
